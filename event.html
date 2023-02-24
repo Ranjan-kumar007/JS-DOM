@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Events</title>
+</head>
+<body>
+     <!-- onclick function() -->
+    <h1>Change to facebook color </h1>
+    <button onclick="myfun()">Click me</button>
+    <h1>Change to whatsApp color </h1>
+    <button onclick="whatsapp()">Click me</button>
+    <h1>Change to Twitter color</h1>
+    <button onclick="twitter()">Click me</button>
+    <script>
+        function myfun(){
+            document.body.style.backgroundColor="#3b5999";
+            document.body.style.color="white";
+        }
+        function whatsapp(){
+            document.body.style.backgroundColor="#25D366";
+            document.body.style.color="white";
+        }
+        function twitter(){
+            document.body.style.backgroundColor="#00aced"
+            document.body.style.color="white";   
+        }
+    </script>
+</body>
+</html>
